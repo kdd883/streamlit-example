@@ -3,7 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 """
 # Welcome to Streamlit!
@@ -39,4 +39,4 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
 testdata = [14, 33, 67, 45, 7, 11, 55, 54, 85, 34, 87, 19, 20, 34, 23, 8, 13, 11, 10, 74, 39, 7]
-plt.plot(testdata)
+plt.pyplot.plot(testdata)
