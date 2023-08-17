@@ -22,7 +22,6 @@ with st.spinner(text='In progress'):
 
 # Show and update progress bar
 bar = st.progress(50)
-time.sleep(3)
 bar.progress(100)
 
 st.balloons()
