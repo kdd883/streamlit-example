@@ -3,7 +3,7 @@ import time
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
-from statsmodels.tsa.stattools import adfuller
+
 
 start_time = time.time()
 
@@ -15,10 +15,6 @@ plt.show()
 
 testdata = [14, 33, 67, 45, 7, 11, 55, 54, 85, 34, 87, 19, 20, 34, 23, 8, 13, 11, 10, 74, 39, 7]
 
-print(f'ADF Results: {adfuller(testdata)}')
-
-list = pd.Series(os.listdir("C:/users/kaushald/OneDrive - Sportsbet/Desktop/"))
-print(f'Content of user directory --> {list[4], list[5]}')
 print(f'Local time is {time.asctime(time.localtime(time.time()))}')
 
 while fac <= 100:
