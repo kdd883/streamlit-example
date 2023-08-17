@@ -19,6 +19,8 @@ plt.plot([1, 2, 3, 4])
 plt.ylabel('some numbers')
 plt.show()
 
+
+"""
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
@@ -39,6 +41,7 @@ with st.echo(code_location='below'):
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
+"""
 
 testdata = [14, 33, 67, 45, 7, 11, 55, 44, 54, 85, 34, 87, 19, 20, 34, 23, 8, 13, 11, 10, 11, 74, 39, 7]
 print(testdata)
