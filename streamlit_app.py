@@ -38,5 +38,5 @@ with st.echo(code_location='below'):
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
 
-testdata = [14, 33, 67, 45, 7, 11, 55, 54, 85, 34, 87, 19, 20, 34, 23, 8, 13, 11, 10, 74, 39, 7]
+testdata = [14, 33, 67, 45, 7, 11, 55, 44, 54, 85, 34, 87, 19, 20, 34, 23, 8, 13, 11, 10, 74, 39, 7]
 plt.pyplot.plot(testdata)
